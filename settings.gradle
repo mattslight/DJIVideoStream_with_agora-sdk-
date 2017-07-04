@@ -1,0 +1,2 @@
+include ':app', ':dji-sdk', 'agora-rtc-sdk'
+include ':libvideoprp'

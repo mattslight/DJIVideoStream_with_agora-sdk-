@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_zoom_enter_back.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_zoom_enter_back.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_push_right_in.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_push_right_in.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_hyperspace_in.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_hyperspace_in.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_other.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_other.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_push_up_in.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_zoom_enter.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_zoom_enter.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_hyperspace_out.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_hyperspace_out.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_push_right_out.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_push_right_out.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_push_up_out.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_zoom_exit.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_zoom_exit.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_hold.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_hold.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_zoom_exit_back.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_zoom_exit_back.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_push_left_in.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_push_left_in.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/anim/core_push_left_out.xml",
+        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/anim/core_push_left_out.xml"
+    }
+]

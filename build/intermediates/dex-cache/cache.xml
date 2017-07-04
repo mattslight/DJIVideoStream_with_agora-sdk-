@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/libs/agora-rtc-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a6a70ff32dc8801dd90cb62870af3190c63c139">
+        <dex dex="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/transforms/dex/debug/folders/1000/2/agora-rtc-sdk_04ad0f44fe2c0c35e788046fe29161715982aa9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mslight/.android/build-cache/bd1fbab18f041f78a3a26f7d4c898275e46ba59e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3ef349d9dbf4e797f547b51db938f1e97cc0798e">
+        <dex dex="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/transforms/dex/debug/folders/1000/10/classes_655dd37b54eb2253182be45dc5709e6b50acc97d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/libs/slf4j-api-1.7.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="081fd4ad622f032af32378b2f229f5efc5ed1ce8">
+        <dex dex="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/transforms/dex/debug/folders/1000/2/slf4j-api-1.7.21_039f5049a3121778d6e9c735ec5c53337259b9b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mslight/.android/build-cache/5e227a756f87eb76b1071c30779fea9c94b50b3c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec3e025b0258c0d67bdb5552b4a824c24b94b787/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

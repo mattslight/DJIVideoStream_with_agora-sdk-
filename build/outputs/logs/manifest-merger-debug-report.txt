@@ -1,0 +1,286 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:2:11-54
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:5:5-65
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:5:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:7:5-75
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:8:5-67
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:9:5-80
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:10:5-78
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:11:5-78
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:12:5-75
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:40:5-76
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:13:5-83
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:13:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:14:5-80
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:15:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:16:5-77
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:16:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:17:5-74
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:41:5-75
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:18:5-67
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:19:5-74
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:19:22-71
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:20:5-70
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:20:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:21:5-64
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:21:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:22:22-77
+uses-feature#android.hardware.camera
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:24:5-59
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:25:19-67
+uses-feature#android.hardware.usb.host
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:26:5-28:35
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:27:9-49
+uses-feature#android.hardware.usb.accessory
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:29:5-31:34
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:56:5-58:35
+	android:required
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:31:9-32
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:30:9-54
+application
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:33:5-69:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/mslight/.android/build-cache/2ce76cc1d3867d1aef3eb96e10bc3e4f6b75831b/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/mslight/.android/build-cache/37558f96d275c1459db69c805f1ef8b56dc78bfa/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/mslight/.android/build-cache/5e227a756f87eb76b1071c30779fea9c94b50b3c/output/AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/mslight/.android/build-cache/4346ffe71ad45bd9e50f1b88bb3f4cb984423d23/output/AndroidManifest.xml:22:5-20
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:60:5-65:19
+MERGED from [DJIVideoStream_with_agora-sdk:libvideoprp:unspecified] /Users/mslight/.android/build-cache/bd1fbab18f041f78a3a26f7d4c898275e46ba59e/output/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:36:9-41
+	android:supportsRtl
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:37:9-35
+	android:allowBackup
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:35:9-35
+	android:icon
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:62:9-45
+	android:theme
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:38:9-40
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:34:9-49
+meta-data#com.dji.sdk.API_KEY
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:40:9-42:55
+	android:value
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:42:13-53
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:41:13-47
+activity#dji.sdk.sdkmanager.DJIAoaControllerActivity
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:44:9-54:20
+	android:theme
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:46:13-61
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:45:13-71
+intent-filter#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:47:13-49:29
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:48:17-92
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:48:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:51:13-53:59
+	android:resource
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:53:17-57
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:52:17-82
+activity#com.dji.videostreamdecodingsample.ConnectionActivity
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:56:9-64:20
+	android:screenOrientation
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:57:13-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:60:17-68
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:62:27-74
+activity#com.dji.videostreamdecodingsample.MainActivity
+ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:65:9-68:83
+	android:screenOrientation
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:66:13-50
+	android:configChanges
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:67:13-59
+	android:theme
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:68:13-71
+	android:name
+		ADDED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml:65:19-47
+uses-sdk
+INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/mslight/.android/build-cache/2ce76cc1d3867d1aef3eb96e10bc3e4f6b75831b/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/mslight/.android/build-cache/37558f96d275c1459db69c805f1ef8b56dc78bfa/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/mslight/.android/build-cache/5e227a756f87eb76b1071c30779fea9c94b50b3c/output/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/mslight/.android/build-cache/4346ffe71ad45bd9e50f1b88bb3f4cb984423d23/output/AndroidManifest.xml:20:5-43
+MERGED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:7:5-9:41
+MERGED from [DJIVideoStream_with_agora-sdk:libvideoprp:unspecified] /Users/mslight/.android/build-cache/bd1fbab18f041f78a3a26f7d4c898275e46ba59e/output/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/mslight/.android/build-cache/5e227a756f87eb76b1071c30779fea9c94b50b3c/output/AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/mslight/.android/build-cache/5e227a756f87eb76b1071c30779fea9c94b50b3c/output/AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/mslight/.android/build-cache/5e227a756f87eb76b1071c30779fea9c94b50b3c/output/AndroidManifest.xml:18:60-113
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:14:22-95
+uses-permission#android.permission.WRITE_USER_DICTIONARY
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:24:5-69
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:24:22-66
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:30:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:31:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:32:5-73
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:32:22-70
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:33:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:34:5-84
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:34:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:35:5-68
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:35:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:39:5-68
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:39:22-65
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:42:5-74
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:42:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:43:5-71
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:43:22-68
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:44:5-81
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:44:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:45:5-85
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:45:22-82
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:50:5-74
+	android:name
+		ADDED from [DJIVideoStream_with_agora-sdk:dji-sdk:unspecified] /Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/AndroidManifest.xml:50:22-71
