@@ -41,28 +41,21 @@
         android:layout_gravity="center"
         android:visibility="gone"
         android:layout_below="@id/main_title_rl"/>
+
     <TextView
         android:id="@+id/activity_main_screen_shot"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Screen Shot"
+        android:text="B/C is OFF"
         android:clickable="true"
         android:onClick="onClick"
         android:padding="5dp"
         android:gravity="center"
         android:background="@color/colorWhite"
         android:textColor="@color/colorBlack"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_below="@id/main_title_rl"
-        />
-    <TextView
-        android:id="@+id/activity_main_save_path"
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/main_title_rl"
-        android:textColor="@color/colorWhite"
-        android:visibility="invisible"
-        />
+        android:layout_below="@id/main_title_rl" />
+
 
 </RelativeLayout>

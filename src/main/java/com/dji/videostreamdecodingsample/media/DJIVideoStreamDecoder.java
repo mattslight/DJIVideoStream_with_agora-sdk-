@@ -13,7 +13,10 @@ import android.util.Log;
 import android.view.Surface;
 
 import com.dji.videostreamdecodingsample.R;
+import com.dji.videostreamdecodingsample.VideoDecodingApplication;
+
 import dji.common.product.Model;
+import dji.common.camera.SettingsDefinitions;
 import dji.log.DJILog;
 import dji.midware.data.model.P3.DataCameraGetPushStateInfo;
 import dji.sdk.sdkmanager.DJISDKManager;
@@ -674,7 +677,7 @@ public class DJIVideoStreamDecoder implements NativeHelper.NativeDataListener {
             if (outIndex >= 0) {
                 if (surface == null && yuvDataListener != null) {
                     // If the surface is null, the yuv data should be get from the buffer and invoke the callback.
-                    Log.d("decodeFrame: need callback");
+                    Log.d(TAG, "decodeFrame: need callback");
                     ByteBuffer yuvDataBuf = outputBuffers[outIndex];
                     yuvDataBuf.position(bufferInfo.offset);
                     yuvDataBuf.limit(bufferInfo.size - bufferInfo.offset);
@@ -684,6 +687,7 @@ public class DJIVideoStreamDecoder implements NativeHelper.NativeDataListener {
                         @Override
                         public void run() {
                             if(bytes != null) {
+                                Log.d(TAG, "SWOO height: " + Integer.toString(height) + " width: " + Integer.toString(width));
                                 yuvDataListener.onYuvDataReceived(bytes, width, height);
                             }
                         }

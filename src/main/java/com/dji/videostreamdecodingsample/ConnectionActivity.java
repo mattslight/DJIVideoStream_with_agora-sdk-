@@ -20,7 +20,7 @@ import dji.sdk.products.Aircraft;
 
 
 
-public class ConnectionActivity extends Activity implements View.OnClickListener {
+public class ConnectionActivity extends Activity  {
 
     private static final String TAG = MainActivity.class.getName();
 
@@ -28,6 +28,7 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
     private TextView mTextProduct;
     private TextView mTextModelAvailable;
     private Button mBtnOpen;
+            //mBtnJoin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,9 +97,8 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
         mTextModelAvailable = (TextView) findViewById(R.id.text_model_available);
         mTextProduct = (TextView) findViewById(R.id.text_product_info);
         mBtnOpen = (Button) findViewById(R.id.btn_open);
-        mBtnOpen.setOnClickListener(this);
-        mBtnOpen.setEnabled(false);
 
+        mBtnOpen.setEnabled(false);
     }
 
     protected BroadcastReceiver mReceiver = new BroadcastReceiver() {
@@ -156,7 +156,6 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
         }
     }
 
-    @Override
     public void onClick(View v) {
         switch (v.getId()) {
 
@@ -165,6 +164,11 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
                 startActivity(intent);
                 break;
             }
+            /*case R.id.button_join:{
+                Intent intent= new Intent(this,MainActivity.class);
+                startActivity(intent);
+                break;
+            }*/
             default:
                 break;
         }
@@ -196,5 +200,7 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
             mTextConnectionStatus.setText(R.string.connection_loose);
         }
     }
+
+
 
 }

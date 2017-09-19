@@ -20,7 +20,7 @@ public class ConstantApp {
             Constants.VIDEO_PROFILE_480P,
             Constants.VIDEO_PROFILE_720P};
 
-    public static final int DEFAULT_PROFILE_IDX = 2; // default use 240P
+    public static final int DEFAULT_PROFILE_IDX = 52; // default use 720P, 30fps
 
     public static class PrefManager {
         public static final String PREF_PROPERTY_PROFILE_IDX = "pref_profile_index";
@@ -29,5 +29,5 @@ public class ConstantApp {
 
     public static final String ACTION_KEY_CROLE = "C_Role";
     public final String TEST = "C_Role";
-    public static final String ACTION_KEY_ROOM_NAME = "ecHANEL";
+    //public static final String ACTION_KEY_ROOM_NAME = "ecHANEL";
 }

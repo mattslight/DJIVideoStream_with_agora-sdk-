@@ -50,15 +50,15 @@ public final class R {
         public static final int radio_unchecked = 0x7f02005d;
     }
     public static final class id {
-        public static final int dbg_region = 0x7f0f005f;
-        public static final int log_dlg_content = 0x7f0f0063;
-        public static final int log_dlg_control = 0x7f0f005d;
-        public static final int log_dlg_lock = 0x7f0f005e;
-        public static final int log_dlg_rg = 0x7f0f0064;
-        public static final int log_dlg_scroll = 0x7f0f0062;
-        public static final int numberPicker1 = 0x7f0f0060;
-        public static final int set_sre_button = 0x7f0f0061;
-        public static final int webview = 0x7f0f005c;
+        public static final int dbg_region = 0x7f0f005e;
+        public static final int log_dlg_content = 0x7f0f0062;
+        public static final int log_dlg_control = 0x7f0f005c;
+        public static final int log_dlg_lock = 0x7f0f005d;
+        public static final int log_dlg_rg = 0x7f0f0063;
+        public static final int log_dlg_scroll = 0x7f0f0061;
+        public static final int numberPicker1 = 0x7f0f005f;
+        public static final int set_sre_button = 0x7f0f0060;
+        public static final int webview = 0x7f0f005b;
     }
     public static final class layout {
         public static final int dialog_login = 0x7f04001b;
@@ -388,9 +388,9 @@ public final class R {
     public static final class style {
         public static final int AppBaseTheme = 0x7f0b008a;
         public static final int AppTheme = 0x7f0b008b;
-        public static final int DialogTheme = 0x7f0b00b8;
-        public static final int LogDialog = 0x7f0b00b9;
-        public static final int LogDialogShowDarkBackground = 0x7f0b00ba;
+        public static final int DialogTheme = 0x7f0b00b9;
+        public static final int LogDialog = 0x7f0b00ba;
+        public static final int LogDialogShowDarkBackground = 0x7f0b00bb;
     }
     public static final class xml {
         public static final int accessory_filter = 0x7f060000;

@@ -7,6 +7,8 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
+//import dji.common.camera.ResolutionAndFrameRate;
+//import dji.common.camera.SettingsDefinitions;
 import dji.common.error.DJIError;
 import dji.common.error.DJISDKError;
 import dji.sdk.base.BaseComponent;
@@ -94,6 +96,8 @@ public class VideoDecodingApplication extends Application {
                     }
                 });
                 Log.d(TAG, "Register success");
+                //VideoDecodingApplication.getProductInstance().getCamera().setVideoResolutionAndFrameRate(SettingsDefinitions.VideoFrameRate.FRAME_RATE_30_FPS, SettingsDefinitions.VideoResolution.RESOLUTION_640x480);
+
 
             } else {
                 Handler handler = new Handler(Looper.getMainLooper());

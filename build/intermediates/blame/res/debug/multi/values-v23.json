@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+        "outputFile": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 185
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 320
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 395
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 482
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 1272
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -109,7 +109,7 @@
                     "endOffset": 2074
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -129,7 +129,7 @@
                     "endOffset": 2179
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -148,7 +148,7 @@
                     "endOffset": 2294
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -167,7 +167,7 @@
                     "endOffset": 2401
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -186,7 +186,7 @@
                     "endOffset": 2514
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-v23/values-v23.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,

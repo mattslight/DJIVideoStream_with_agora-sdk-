@@ -47,11 +47,27 @@
         android:layout_height="55dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="350dp"
+        android:onClick="onClick"
         android:background="@drawable/round_btn"
         android:text="Open"
         android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <!--<Button
+        android:id="@+id/button_join"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:enabled="true"
+        android:text="Join Room"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/colorWhite"
         android:textSize="20dp"
-        />
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/btn_open"
+        android:layout_alignStart="@+id/btn_open" />-->
 
     <TextView
         android:layout_width="wrap_content"

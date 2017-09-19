@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Siba\Dev\DJIVideoStream_with_agorasdk\DJIVideoStream_with_agora-sdk-\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Siba\Dev\DJIVideoStream_with_agorasdk\DJIVideoStream_with_agora-sdk-\src\debug\shaders"/></dataSet></merger>

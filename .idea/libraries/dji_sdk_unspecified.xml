@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="dji-sdk-unspecified">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f9fe939641c20de04f9d21c2b03d7dd2183d8c66/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f9fe939641c20de04f9d21c2b03d7dd2183d8c66/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

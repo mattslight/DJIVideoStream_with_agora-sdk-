@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DJIVideoStream_with_agora-sdk.iml" filepath="$PROJECT_DIR$/DJIVideoStream_with_agora-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DJIVideoStream_with_agora-sdk-.iml" filepath="$PROJECT_DIR$/DJIVideoStream_with_agora-sdk-.iml" />
       <module fileurl="file://$PROJECT_DIR$/agora-rtc-sdk/agora-rtc-sdk.iml" filepath="$PROJECT_DIR$/agora-rtc-sdk/agora-rtc-sdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dji-sdk/dji-sdk.iml" filepath="$PROJECT_DIR$/dji-sdk/dji-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/libvideoprp/libvideoprp.iml" filepath="$PROJECT_DIR$/libvideoprp/libvideoprp.iml" />
     </modules>

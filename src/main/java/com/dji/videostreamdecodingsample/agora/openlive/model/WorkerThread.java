@@ -224,7 +224,7 @@ public class WorkerThread extends Thread {
 
         mRtcEngine.setClientRole(cRole, "");
 
-        log.debug("configEngine " + cRole + " " + mEngineConfig.mVideoProfile);
+        Log.d(TAG, "configEngine " + cRole + " " + mEngineConfig.mVideoProfile);
     }
 
     public final void preview(boolean start, SurfaceView view, int uid) {

@@ -9,7 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/agora-rtc-sdk" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/dji-sdk" />
             <option value="$PROJECT_DIR$/libvideoprp" />
           </set>

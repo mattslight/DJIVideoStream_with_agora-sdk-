@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
+        "outputFile": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/mslight/.android/build-cache/b7cbda7a5a954a5b243fe75b87318f4bafdb7d3c/output/res/values-w360dp-v13/values-w360dp-v13.xml",
+                    "file": "C:\\Users\\Siba\\.android\\build-cache\\c7e5891c5c6f03e0444471164805de9f80b5ce00\\output\\res\\values-w360dp-v13\\values-w360dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

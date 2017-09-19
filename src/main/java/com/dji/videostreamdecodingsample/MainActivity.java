@@ -2,6 +2,7 @@ package com.dji.videostreamdecodingsample;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.graphics.ImageFormat;
 import android.graphics.SurfaceTexture;
 import android.graphics.YuvImage;
@@ -12,7 +13,9 @@ import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -21,10 +24,14 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.dji.videostreamdecodingsample.agora.common.Constant;
 import com.dji.videostreamdecodingsample.agora.openlive.model.AGEventHandler;
 import com.dji.videostreamdecodingsample.agora.openlive.model.ConstantApp;
+import com.dji.videostreamdecodingsample.agora.openlive.model.EngineConfig;
+import com.dji.videostreamdecodingsample.agora.openlive.model.MyEngineEventHandler;
 import com.dji.videostreamdecodingsample.agora.openlive.model.WorkerThread;
 import com.dji.videostreamdecodingsample.media.DJIVideoStreamDecoder;
+//import com.dji.videostreamdecodingsample.agora.openlive.model.
 
 import com.dji.videostreamdecodingsample.media.NativeHelper;
 import dji.common.product.Model;
@@ -32,14 +39,18 @@ import dji.sdk.base.BaseProduct;
 import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.sdk.camera.Camera;
+import io.agora.rtc.Constants;
+import io.agora.rtc.RtcEngine;
 import io.agora.rtc.video.AgoraVideoFrame;
+import io.agora.rtc.video.VideoCanvas;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuvDataListener {
+public class MainActivity extends AppCompatActivity implements DJIVideoStreamDecoder.IYuvDataListener, AGEventHandler {
     private static final String TAG = MainActivity.class.getSimpleName();
     static final int MSG_WHAT_SHOW_TOAST = 0;
     static final int MSG_WHAT_UPDATE_TITLE = 1;
@@ -53,18 +64,24 @@ public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuv
     private BaseProduct mProduct;
     private Camera mCamera;
     private DJICodecManager mCodecManager;
+    byte[] bytes;
 
     private TextView savePath;
     private TextView screenShot;
     private List<String> pathList = new ArrayList<>();
     private final ConcurrentHashMap<AGEventHandler, Integer> mEventHandlerList = new ConcurrentHashMap<>();
+    //private final HashMap<Integer, SurfaceView> mUidsList = new HashMap<>();
 
     private HandlerThread backgroundHandlerThread;
     public Handler backgroundHandler;
+    private WorkerThread mWorkerThread;
+
+    private boolean isBroadcaster(int cRole) {
+        return cRole == Constants.CLIENT_ROLE_BROADCASTER;
+    }
 
     protected VideoFeeder.VideoDataCallback mReceivedVideoDataCallBack = null;
-
-    private AgoraVideoFrame vf = new AgoraVideoFrame();
+    public AgoraVideoFrame vf = new AgoraVideoFrame();
 
     @Override
     protected void onResume() {
@@ -158,6 +175,18 @@ public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuv
         );
     }
 
+    protected final EngineConfig config() {
+        return ((VideoDecodingApplication) getApplication()).getWorkerThread().getEngineConfig();
+
+    }
+
+    protected final WorkerThread worker() {
+        return ((VideoDecodingApplication) getApplication()).getWorkerThread();
+    }
+    protected RtcEngine rtcEngine() {
+        return ((VideoDecodingApplication) getApplication()).getWorkerThread().getRtcEngine();
+    }
+
     private void updateTitle(String s) {
         mainHandler.sendMessage(
                 mainHandler.obtainMessage(MSG_WHAT_UPDATE_TITLE, s)
@@ -165,13 +194,24 @@ public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuv
     }
 
     private void initUi() {
-        savePath = (TextView) findViewById(R.id.activity_main_save_path);
+        //savePath = (TextView) findViewById(R.id.activity_main_save_path);
+
         screenShot = (TextView) findViewById(R.id.activity_main_screen_shot);
         screenShot.setSelected(false);
         titleTv = (TextView) findViewById(R.id.title_tv);
         videostreamPreviewTtView = (TextureView) findViewById(R.id.livestream_preview_ttv);
         videostreamPreviewSf = (SurfaceView) findViewById(R.id.livestream_preview_sf);
         videostreamPreviewSh = videostreamPreviewSf.getHolder();
+        mWorkerThread = ((VideoDecodingApplication)getApplication()).getWorkerThread();
+        mWorkerThread.configEngine(1,ConstantApp.DEFAULT_PROFILE_IDX);
+        mWorkerThread.joinChannel("SWOO", 1234223);
+
+
+        /*SurfaceView surfaceV = RtcEngine.CreateRendererView(getApplicationContext());
+        rtcEngine().setupLocalVideo(new VideoCanvas(surfaceV, VideoCanvas.RENDER_MODE_HIDDEN, 0));
+        surfaceV.setZOrderOnTop(true);
+        surfaceV.setZOrderMediaOverlay(true);
+*/
         if (useSurface) {
             videostreamPreviewSf.setVisibility(View.VISIBLE);
             videostreamPreviewTtView.setVisibility(View.GONE);
@@ -269,70 +309,73 @@ public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuv
         });
     }
 
+    @Override
+    public void onJoinChannelSuccess(String channel, int uid, int elapsed) {
+        Log.d(TAG, "onJoinChannelSuccess " + channel + " " + uid + " " + (uid & 0xFFFFFFFFL) + " " + elapsed);
+
+        Iterator<AGEventHandler> it = mEventHandlerList.keySet().iterator();
+        while (it.hasNext()) {
+            AGEventHandler handler = it.next();
+            handler.onJoinChannelSuccess(channel, uid, elapsed);
+        }
+    }
+
     @Override //when is this called??
     public void onYuvDataReceived(byte[] yuvFrame, int width, int height) {
 
+//        /* I think this isn't needed.... but I might be wrong*/
+//
+//        byte[] y = new byte[width * height];
+//        byte[] u = new byte[width * height / 4];
+//        byte[] v = new byte[width * height / 4];
+//        byte[] nu = new byte[width * height / 4];
+//        byte[] nv = new byte[width * height / 4];
+//        System.arraycopy(yuvFrame, 0, y, 0, y.length);
+//        for (int i = 0; i < u.length; i++) {
+//            v[i] = yuvFrame[y.length + 2 * i];
+//            u[i] = yuvFrame[y.length + 2 * i + 1];
+//        }
+//        int uvWidth = width / 2;
+//        int uvHeight = height / 2;
+//        for (int j = 0; j < uvWidth / 2; j++) {
+//            for (int i = 0; i < uvHeight / 2; i++) {
+//                byte uSample1 = u[i * uvWidth + j];
+//                byte uSample2 = u[i * uvWidth + j + uvWidth / 2];
+//                byte vSample1 = v[(i + uvHeight / 2) * uvWidth + j];
+//                byte vSample2 = v[(i + uvHeight / 2) * uvWidth + j + uvWidth / 2];
+//                nu[2 * (i * uvWidth + j)] = uSample1;
+//                nu[2 * (i * uvWidth + j) + 1] = uSample1;
+//                nu[2 * (i * uvWidth + j) + uvWidth] = uSample2;
+//                nu[2 * (i * uvWidth + j) + 1 + uvWidth] = uSample2;
+//                nv[2 * (i * uvWidth + j)] = vSample1;
+//                nv[2 * (i * uvWidth + j) + 1] = vSample1;
+//                nv[2 * (i * uvWidth + j) + uvWidth] = vSample2;
+//                nv[2 * (i * uvWidth + j) + 1 + uvWidth] = vSample2;
+//            }
+//        }
+//        //nv21test
+//        bytes = new byte[yuvFrame.length];
+//        System.arraycopy(y, 0, bytes, 0, y.length);
+//        //Log.d(TAG, new String(bytes));
+//
+//        for (int i = 0; i < u.length; i++) {
+//            bytes[y.length + (i * 2)] = nv[i];
+//            bytes[y.length + (i * 2) + 1] = nu[i];
+//        }
+
         vf.format = AgoraVideoFrame.FORMAT_NV21;
         vf.timeStamp = System.currentTimeMillis();
-        vf.stride = 0;
+        vf.stride = width;
         vf.height = height;
+        //vf.buf = bytes;
         vf.buf = yuvFrame;
-
-        /* I think this isn't needed.... but I might be wrong
-        //In this demo, we test the YUV data by saving it into JPG files.
-        if (DJIVideoStreamDecoder.getInstance().frameIndex % 30 == 0) {
-            byte[] y = new byte[width * height];
-            byte[] u = new byte[width * height / 4];
-            byte[] v = new byte[width * height / 4];
-            byte[] nu = new byte[width * height / 4]; //
-            byte[] nv = new byte[width * height / 4];
-            System.arraycopy(yuvFrame, 0, y, 0, y.length);
-            for (int i = 0; i < u.length; i++) {
-                v[i] = yuvFrame[y.length + 2 * i];
-                u[i] = yuvFrame[y.length + 2 * i + 1];
-            }
-            int uvWidth = width / 2;
-            int uvHeight = height / 2;
-            for (int j = 0; j < uvWidth / 2; j++) {
-                for (int i = 0; i < uvHeight / 2; i++) {
-                    byte uSample1 = u[i * uvWidth + j];
-                    byte uSample2 = u[i * uvWidth + j + uvWidth / 2];
-                    byte vSample1 = v[(i + uvHeight / 2) * uvWidth + j];
-                    byte vSample2 = v[(i + uvHeight / 2) * uvWidth + j + uvWidth / 2];
-                    nu[2 * (i * uvWidth + j)] = uSample1;
-                    nu[2 * (i * uvWidth + j) + 1] = uSample1;
-                    nu[2 * (i * uvWidth + j) + uvWidth] = uSample2;
-                    nu[2 * (i * uvWidth + j) + 1 + uvWidth] = uSample2;
-                    nv[2 * (i * uvWidth + j)] = vSample1;
-                    nv[2 * (i * uvWidth + j) + 1] = vSample1;
-                    nv[2 * (i * uvWidth + j) + uvWidth] = vSample2;
-                    nv[2 * (i * uvWidth + j) + 1 + uvWidth] = vSample2;
-                }
-            }
-            //nv21test
-            byte[] bytes = new byte[yuvFrame.length];
-            System.arraycopy(y, 0, bytes, 0, y.length);
-            for (int i = 0; i < u.length; i++) {
-                bytes[y.length + (i * 2)] = nv[i];
-                bytes[y.length + (i * 2) + 1] = nu[i];
-            }*/
 
         Log.d(TAG, "we are here MPS123");
         sendVFtoAgora(vf);
 
     }
 
-
     private void sendVFtoAgora(AgoraVideoFrame vf) {
-
-        /* I aslo think we don't need this. Am I right?
-        YuvImage yuvImage = new YuvImage(buf,
-
-                ImageFormat.NV21,
-                DJIVideoStreamDecoder.getInstance().width,
-                DJIVideoStreamDecoder.getInstance().height,
-                null);
-        */
 
         /*
          * Conjecture: by the time we reach here there should be a WorkerThread which has invoked
@@ -350,35 +393,17 @@ public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuv
          * mWorkerThread.configEngine(cRole, io.agora.rtc.Constants.VIDEO_PROFILE_720P(?)) // cRole should be broadcaster
          * mWorkerThread.joinChannel(String channel, int uid(?))
          */
+        Log.d(TAG, "SWOOOOOO starting broadcast as broadcaster, calling WorkerThread"); //this works but are we pushing data to a channel
 
-        Log.d(TAG, "SWOOOOOO starting broadcast, calling WorkerThread"); //this works but are we pushing data to a channel
+        // an attempt at craziest code of the year award
+        Log.d(TAG, "Trying to push video frame");
 
-        WorkerThread mWorkerThread = ((VideoDecodingApplication)getApplication()).getWorkerThread();
+        if(mWorkerThread.getRtcEngine().pushExternalVideoFrame(vf)) {
+            Log.d(TAG, "Frame successfully pushed");
+        } else {
+            Log.d(TAG,"frame not pushed");
+        }
 
-            // an attempt at craziest code of the year award
-            Log.d(TAG, "Trying to push video frame");
-            if(mWorkerThread.getRtcEngine().pushExternalVideoFrame(vf)) {
-                Log.d(TAG, "Frame successfully pushed");
-            } else {
-               Log.d(TAG, "Could not push frame trying to join SWOO channel first...");
-               mWorkerThread.joinChannel("SWOO", 1);
-               if(mWorkerThread.getRtcEngine().pushExternalVideoFrame(vf)) {
-                Log.d(TAG, "Frame successfully pushed");
-                } else {
-               Log.e(TAG, "STILL CAN NOT PUSH FRAME ARRRRHHH");
-                }
-           }
-
-        runOnUiThread(new Runnable() { //no idea what this does
-            @Override
-            public void run() {
-                // do nothing
-            }
-        });
-
-
-        //WorkerThread mWorkerThread = ((VideoDecodingApplication) getApplication()).getWorkerThread();
-        //mWorkerThread.joinChannel("SWOO", 1);
     }
 
     public void onClick(View v) {
@@ -388,33 +413,54 @@ public class MainActivity extends Activity implements DJIVideoStreamDecoder.IYuv
             if (useSurface) {
                 DJIVideoStreamDecoder.getInstance().changeSurface(videostreamPreviewSh.getSurface());
             }
-            savePath.setText("");
-            savePath.setVisibility(View.INVISIBLE);
+
         } else {
             screenShot.setText("B/C is ON");
             screenShot.setSelected(true);
             if (useSurface) {
                 DJIVideoStreamDecoder.getInstance().changeSurface(null);
             }
-            savePath.setText("");
-            savePath.setVisibility(View.VISIBLE);
-            pathList.clear();
+
         }
     }
 
-    private void displayPath(String path){
+    /*private void displayPath(String path) {
         path = path + "\n\n";
-        if(pathList.size() < 6){
+        if (pathList.size() < 6) {
             pathList.add(path);
-        }else{
+        } else {
             pathList.remove(0);
             pathList.add(path);
         }
         StringBuilder stringBuilder = new StringBuilder();
-        for(int i = 0 ;i < pathList.size();i++){
+        for (int i = 0; i < pathList.size(); i++) {
             stringBuilder.append(pathList.get(i));
         }
         savePath.setText(stringBuilder.toString());
     }
+
+    private void doSwitchToBroadcaster(boolean broadcaster) {
+        final int currentHostCount = mUidsList.size();
+        final int uid = config().mUid;
+        Log.d(TAG, "doSwitchToBroadcaster " + currentHostCount + " " + (uid & 0XFFFFFFFFL) + " " + broadcaster);
+
+        if (broadcaster) {
+            doConfigEngine(Constants.CLIENT_ROLE_BROADCASTER);
+        } else {
+            doConfigEngine(Constants.CLIENT_ROLE_AUDIENCE);
+        }
+    }
+
+    private void doConfigEngine(int cRole) {
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        /*int prefIndex = pref.getInt(ConstantApp.PrefManager.PREF_PROPERTY_PROFILE_IDX, ConstantApp.DEFAULT_PROFILE_IDX);
+        if (prefIndex > ConstantApp.VIDEO_PROFILES.length - 1) {
+            prefIndex = ConstantApp.DEFAULT_PROFILE_IDX;
+        }
+        int vProfile = ConstantApp.DEFAULT_PROFILE_IDX;
+
+        worker().configEngine(cRole, vProfile);
+        Log.d(TAG,"configEngine() - worker thread asynchronously " + cRole + " " + vProfile);
+    }*/
 
 }

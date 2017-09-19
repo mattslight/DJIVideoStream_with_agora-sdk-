@@ -1,158 +1,158 @@
 [
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_cam_cap_4p.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_cam_cap_4p.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_720x480_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_720x480_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1360x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1360x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1280x720_ins.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1280x720_ins.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_640x480.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_640x480.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1080x720_gd600.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1080x720_gd600.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1344x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1344x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1280x720_wm220.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1280x720_wm220.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/flyc_param_infos",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/flyc_param_infos"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1440x1088_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1440x1088_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1280x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1280x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_wm220_1280x720.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_wm220_1280x720.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/arrow_v02.3DS",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/arrow_v02.3DS"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1080x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1080x720_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1920x1440_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1920x1440_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_gd600_1280x720.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_gd600_1280x720.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_p4p_720_3x2.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_p4p_720_3x2.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\gimbal_param_infos",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\gimbal_param_infos"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_gd600_1280x720.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_gd600_1280x720.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\effect_tick.ogg",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\effect_tick.ogg"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1080x720_gd600.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1080x720_gd600.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1280x720_3s.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1280x720_3s.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1280x720_p4.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1280x720_p4.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_p4p_1344x720.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_p4p_1344x720.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1440x1088_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1440x1088_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_640x368_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_640x368_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/overexposure.png",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/overexposure.png"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\dock.ogg",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\dock.ogg"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_p4p_1344x720.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_p4p_1344x720.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_960x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_960x720_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_p4p_720_4x3.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_p4p_720_4x3.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1088x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1088x720_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_wm220_1280x720.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_wm220_1280x720.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1280x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1280x720_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/dock.ogg",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/dock.ogg"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1920x1088_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1920x1088_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/flyforbid.json",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/flyforbid.json"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\overexposure.png",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\overexposure.png"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_640x368_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_640x368_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_848x480.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_848x480.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/effect_tick.ogg",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/effect_tick.ogg"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1920x1024_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1920x1024_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_960x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_960x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1760x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1760x720_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_p4p_720_16x9.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_p4p_720_16x9.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\arrow_v02.3DS",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\arrow_v02.3DS"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1920x1024_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1920x1024_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_960x720_3s.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_960x720_3s.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1920x1088_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1920x1088_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\flyforbid.json",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\flyforbid.json"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1080x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1080x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1920x800_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1920x800_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_848x480.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_848x480.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_cam_cap_4p.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_cam_cap_4p.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1280x720_3s.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1280x720_3s.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_p4p_720_16x9.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_p4p_720_16x9.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1024x768_wm100.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1024x768_wm100.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1360x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1360x720_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1280x720_wm220.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1280x720_wm220.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_p4p_720_3x2.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_p4p_720_3x2.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1280x720_ins.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1280x720_ins.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_640x480.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_640x480.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1920x800_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1920x800_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1280x720_p4.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1280x720_p4.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1088x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1088x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1024x768_wm100.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1024x768_wm100.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_720x480_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_720x480_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\flyc_param_infos",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\flyc_param_infos"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_608x448_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_608x448_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_p4p_720_4x3.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_p4p_720_4x3.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/gimbal_param_infos",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/gimbal_param_infos"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_608x448_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_608x448_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_960x720_3s.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_960x720_3s.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1632x1080_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1632x1080_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1632x1080_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1632x1080_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1920x1440_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1920x1440_wm620.h264"
     },
     {
-        "merged": "/Users/mslight/Dev/DJIVideoStream_with_agora-sdk/build/intermediates/res/merged/debug/raw/iframe_1760x720_wm620.h264",
-        "source": "/Users/mslight/.android/build-cache/3a1d5235f4eb0e33b08672e570f9d2d80387fa75/output/res/raw/iframe_1760x720_wm620.h264"
+        "merged": "C:\\Users\\Siba\\Dev\\DJIVideoStream_with_agorasdk\\DJIVideoStream_with_agora-sdk-\\build\\intermediates\\res\\merged\\debug\\raw\\iframe_1344x720_wm620.h264",
+        "source": "C:\\Users\\Siba\\.android\\build-cache\\f9fe939641c20de04f9d21c2b03d7dd2183d8c66\\output\\res\\raw\\iframe_1344x720_wm620.h264"
     }
 ]

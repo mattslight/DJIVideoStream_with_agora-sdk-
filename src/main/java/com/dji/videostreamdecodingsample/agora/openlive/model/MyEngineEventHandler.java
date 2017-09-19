@@ -43,17 +43,18 @@ public class MyEngineEventHandler {
             Iterator<AGEventHandler> it = mEventHandlerList.keySet().iterator();
             while (it.hasNext()) {
                 AGEventHandler handler = it.next();
-                handler.onFirstRemoteVideoDecoded(uid, width, height, elapsed);
+                //handler.onFirstRemoteVideoDecoded(uid, width, height, elapsed);
             }
         }
 
         @Override
         public void onFirstLocalVideoFrame(int width, int height, int elapsed) {
-            log.debug("onFirstLocalVideoFrame " + width + " " + height + " " + elapsed);
+            Log.d(TAG,"onFirstLocalVideoFrame " + width + " " + height + " " + elapsed);
         }
 
         @Override
         public void onUserJoined(int uid, int elapsed) {
+            Log.d(TAG,"another broadcaster joined channel");
         }
 
         @Override
@@ -62,7 +63,7 @@ public class MyEngineEventHandler {
             Iterator<AGEventHandler> it = mEventHandlerList.keySet().iterator();
             while (it.hasNext()) {
                 AGEventHandler handler = it.next();
-                handler.onUserOffline(uid, reason);
+                //handler.onUserOffline(uid, reason);
             }
         }
 
